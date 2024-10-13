@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tree-node {
+  margin-left: 20px;
+  position: relative;
+}
+
+.tree-node:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #696969;
+}
+
+.tree-node > .MuiBox-root {
+  padding-left: 20px;
+  position: relative;
+}
+
+.tree-node > .MuiBox-root:before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 15px;
+  width: 20px;
+  height: 2px;
+  background-color: #696969;
+}
+
+.table-container {
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+.tree-node {
+  margin-left: 16px;
+}
+
+.table-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-row {
+  transition: background-color 0.3s;
+}
+
+.table-row:hover {
+  background-color: #f0f0f0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.collapse-content {
+  padding-left: 20px;
+}
+
+.activity-label {
+  color: #20b2aa;
+}
+
+.work-item-label {
+  margin-left: 20px;
+}
+
+.icon-button {
+  margin-left: auto;
+}
